@@ -1,4 +1,5 @@
-import ruamel.yaml as yaml
+import yaml
+
 
 class SettingsParser:
     def __init__(self):

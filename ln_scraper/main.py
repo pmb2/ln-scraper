@@ -1,10 +1,9 @@
 try:
-    from scraper import *
+    from scraper import Scraper
     from settings import *
 except:
-    from scraper import *
+    from scraper import Scraper
     from settings import *
-
 import boto3
 import glob
 

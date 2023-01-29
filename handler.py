@@ -1,8 +1,4 @@
-import json
-try:
-    import main
-except:
-    import ln_scraper.main as main
+from ln_scraper import main
 
 
 def run(event, context):
@@ -11,4 +7,4 @@ def run(event, context):
 
 
 if __name__ == "__main__":
-    run('','')
+    run('test', 'ing')
