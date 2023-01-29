@@ -2,10 +2,11 @@ try:
     from scraper import *
     from settings import *
 except:
-    from ln_scraper.scraper import *
-    from ln_scraper.settings import *
+    from scraper import *
+    from settings import *
 
-import boto3, os, glob
+import boto3
+import glob
 
 
 def run():
@@ -18,7 +19,7 @@ def run():
 
     if settings_file is None:
         print("Failed to find settings file")
-        return false
+        return False
 
     # Read the settings
     sp = SettingsParser()

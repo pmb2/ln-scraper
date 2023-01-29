@@ -40,5 +40,5 @@ functions:
       - schedule: 
           name: daily-property-search
           description: scrapes LoopNet daily for multifamily properties
-          enabeld: true
+          enabled: true
           rate: cron(0 1 * * ? *)
